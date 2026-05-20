@@ -39,29 +39,34 @@ Designed and created with ❤️+☕ by <a href="https://kavya-portfolio.dev">Ha
 Install dependencies
 
 ```
-$ yarn
+$ npm install
 ```
 
-Create a `.env` file similar to [`.env.example`](https://github.com/hafid//blob/main/.env.example).
+Create a `.env` file from `.env.example` and set these environment variables (also add them in **Netlify Environment Variables** when deploying):
+
+- `EMAIL`
+- `PASSWORD`
+- `RECIPIENT`
+- `ZEN_QUOTES_API_URL`
 
 ## Running Server 🚀
 
 Start the development server
 
 ```
-$ yarn dev
+$ npm run dev
 ```
 
 ## Building 🏗️
 
 ```
-$ yarn build
+$ npm run build
 ```
 
 Then
 
 ```
-$ yarn start
+$ npm run start
 ```
 
 ## License 📜
