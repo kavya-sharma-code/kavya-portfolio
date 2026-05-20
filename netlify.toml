@@ -1,14 +1,17 @@
 [build]
   command = "npm run build"
+  # Netlify will serve the Next.js build output.
+  # For Next.js SSR/server, this is handled by Netlify’s Next.js integration.
+  # Keep this value as .next to match the framework output.
   publish = ".next"
 
-# Next.js on Netlify typically works by running a build and serving the result.
-# These settings keep the build reproducible and align with Netlify’s Node build image.
+# Ensure all routes fall back to Next’s home so deep links don’t 404.
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 200
 
 [dev]
   command = "npm run dev"
   framework = "nextjs"
-
-# If your deployment needs URL rewrites for SPA-like routing, Netlify usually handles
-# it for Next.js. This can be extended if you add custom routing.
 
