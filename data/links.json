@@ -1,0 +1,7 @@
+[
+  {"name": "About", "route": "about"},
+  {"name": "Experience", "route": "projects"},
+  {"name": "Skills", "route": "skills"},
+  {"name": "Contact", "route": "contact"}
+]
+

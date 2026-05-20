@@ -1,0 +1,11 @@
+{
+  "first_name": "Kavya",
+  "last_name": "Sharma",
+  "socials": [
+    {"name": "linkedin", "link": "https://in.linkedin.com/in/kavyaa-sharma"},
+    {"name": "github", "link": "https://github.com/kavya-sharma-code"}
+  ],
+  "summary": "Backend Developer building scalable REST APIs and backend systems using Node.js, Express.js, and NestJS. Experienced with microservices, databases, caching, and authentication — focused on performance, reliability, and clean architecture.",
+  "about": "Backend Developer with experience starting as an Intern at Deloitte in January 2025 and transitioning to a full-time role in February 2026.\n\nSkilled in building REST APIs and backend applications using Node.js and Express.js, with knowledge of microservices, database management, API integration, caching, and cloud fundamentals.\n\nPassionate about developing scalable applications and continuously learning modern backend technologies.\n\nScroll down to explore experience and projects."
+}
+
