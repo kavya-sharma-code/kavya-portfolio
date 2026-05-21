@@ -1,20 +1,11 @@
 [build]
   command = "npm run build"
-  # Publish the Next.js build output.
   publish = ".next"
 
-# For Next.js server-side routing (SSR), Netlify uses its Next integration.
-# Keep redirects minimal; Next will handle routing.
-# If you still see 404 on refresh/direct links, adjust to use Netlify SPA shell.
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
-
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
 
 [dev]
   command = "npm run dev"
   framework = "nextjs"
-
 
